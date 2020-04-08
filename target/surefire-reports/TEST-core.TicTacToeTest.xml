@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="core.TicTacToeTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="core.TicTacToeTest" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre/lib"/>
@@ -15,6 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="TicTacToeTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/user/Workspace/HW_34_1"/>
     <property name="java.runtime.version" value="1.8.0_241-b07"/>
@@ -46,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean site -Dtest=TicTacToeTest"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -64,11 +65,11 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="core.TicTacToeTest" name="test_X_Won_01" time="0.007"/>
+  <testcase classname="core.TicTacToeTest" name="test_X_Won_01" time="0.011"/>
   <testcase classname="core.TicTacToeTest" name="test_null" time="0.001"/>
   <testcase classname="core.TicTacToeTest" name="test_O_Incorrect" time="0"/>
   <testcase classname="core.TicTacToeTest" name="test_O_Won_01" time="0"/>
   <testcase classname="core.TicTacToeTest" name="test_O_Won_02" time="0"/>
-  <testcase classname="core.TicTacToeTest" name="test_X_Incorrect" time="0"/>
+  <testcase classname="core.TicTacToeTest" name="test_X_Incorrect" time="0.001"/>
   <testcase classname="core.TicTacToeTest" name="test_draw_01" time="0"/>
 </testsuite>
